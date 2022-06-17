@@ -2,10 +2,10 @@
 //controlla che sia nella lista di chi può accedere;
 // stampa un messaggio appropriato sull'esito del controllo;
 
-const currentEmail = ['ciao@gmail.com', 'ciao@ibero.it', 'ciao@hotmail.com'];
+const currentEmail = ['ciro@gmail.com', 'giuseppe@gmail.com', 'paolo@gmail.com', 'silvio@gmail.com', 'luigi@gmail.com', 'ernesto@gmail.com', 'pino@gmail.com', 'luca@gmail.com', 'giovanni@gmail.com', 'mario@gmail.com', ];
 
 const userEmail = prompt('Inserisci la tua email');
-console.log(userEmail);
+console.warn(userEmail);
 
 let emailCheck = false;
 
@@ -20,11 +20,11 @@ for (let index = 0; index < currentEmail.length; index++) {
 }
 
 if (emailCheck == true) {
-    console.log('Accesso consentito');
+    console.warn('Accesso consentito');
 } else {
-    console.log('Accesso negato');
+    console.warn('Accesso negato');
 }
 
 
 
-console.log(emailCheck);
+// console.log(emailCheck);
