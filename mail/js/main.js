@@ -19,6 +19,12 @@ for (let index = 0; index < currentEmail.length; index++) {
     
 }
 
+if (emailCheck == true) {
+    console.log('Accesso consentito');
+} else {
+    console.log('Accesso negato');
+}
+
 
 
 console.log(emailCheck);
