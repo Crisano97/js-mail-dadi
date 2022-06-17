@@ -13,3 +13,11 @@ for (let index = 1; index <= 1; index++) {
     index= iaNumber;
     console.log(index)
 }
+
+if (userNumber > iaNumber) {
+    console.warn('HAI VINTO');
+} else if (userNumber < iaNumber) {
+    console.warn('HAI PERSO ');
+} else {
+    console.warn('PAREGGIO');
+}
